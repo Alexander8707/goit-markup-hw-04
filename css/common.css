@@ -1,0 +1,299 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --second-accent-color: #ffffff;
+  --primary-icon-color: #afb1b8;
+  --cards-gap: 30px;
+}
+
+/* основной цвет текста
+ color: #212121; */
+
+/* вторичный цвет текста
+ color: #757575; */
+/*  акцент 
+color: #2196F3 */
+/* цвет текста героя
+color: #FFFFFF; */
+
+/* навигация. */
+body {
+  background: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, 'Segoe UI';
+  font-style: normal;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.clients-container,
+.header-container,
+.hero-container,
+.advantages-container,
+.work-container,
+.team-container,
+.footer-container,
+.list-container {
+  /* outline: 2px solid red; */
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+}
+/* HEADER */
+
+.header-nav,
+.site-nav,
+.auth-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav .logo-top {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* логотип */
+.logo-top {
+  color: var(--primary-text-colork);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+
+.logo-bottom {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+/* навигация */
+
+/* .site-nav, */
+.auth-nav a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.site-nav {
+  margin-left: 93px;
+}
+
+.site-nav a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.site-nav li:nth-child(n + 2) {
+  margin-left: 20px;
+}
+.auth-nav {
+  margin-left: auto;
+}
+
+.auth-nav li:not(:last-child) {
+  /* padding: 0; */
+  margin-right: 50px;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.post {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.post-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.phone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+/* связь с компанией */
+.auth-nav .link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-container {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin-top: 20px;
+}
+
+.footer-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-link .link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.list .footer-link {
+  color: #ffffff;
+}
+
+.footer-link {
+  margin-top: 9px;
+}
+
+/* соцсети */
+
+.footer-social-container {
+  margin-left: 70px;
+  margin-right: auto;
+  padding-top: 12px;
+}
+
+.footer-social-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: var(--accent-color);
+}
+
+.footer-icon {
+  fill: var(--second-accent-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
