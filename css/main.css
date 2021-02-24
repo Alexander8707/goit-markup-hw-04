@@ -26,6 +26,7 @@
   width: 1200px;
   height: 600px;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -166,8 +167,12 @@
   margin-right: 30px;
 }
 
+.team-list-container {
+  padding: 30px 32px;
+}
+
 .list-title {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 10px;
 
   color: var(--primary-text-color);
@@ -194,9 +199,9 @@
   display: flex;
   justify-content: center;
   fill: var(--primary-icon-color);
-  padding-left: 32px;
+  /* padding-left: 32px;
   padding-bottom: 30px;
-  padding-right: 32px;
+  padding-right: 32px; */
 }
 
 .icon-list li {
